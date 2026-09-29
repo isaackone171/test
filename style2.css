@@ -1,0 +1,39 @@
+body{
+   background: linear-gradient(to left, #1CB5E0, #000046);
+    background: linear-gradient(to right,#000046, #1CB5E0);
+  margin: 200px;
+}
+legend{
+    font-size: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    color:white;
+}
+input{
+    font-size:23px;
+    border-radius:22px;
+    border-color: cyan;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    text-align: center;
+}
+.btn{
+    font-size:23px;
+    background-color:red;
+    border-radius:20px;
+}
+.bouton{
+    padding:15px;
+    margin:20px;
+}
+a{
+    text-decoration: none;
+}
+.add:hover{
+    background-color: #000046;
+    transition:1s;
+    color:white;
+}
