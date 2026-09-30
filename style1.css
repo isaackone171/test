@@ -1,55 +1,12 @@
-table{
-    border-collapse: collapse;
-    margin:12px;
-    border-color: darkgrey;
-    
-}
-td{
-    border:1px solid black;
-    font-size: 20px;
-    color:white;
-
-}
-th{
-    font-size: 25px;
-    background-color: blueviolet;
-    border-radius: 20px;
-    color:white;
+.move{
+    display:flex;
+    justify-content:space-around;
+    margin-top:50px;
+    align-items: center;
 }
 body{
     background: linear-gradient(to left, #1CB5E0, #000046);
     background: linear-gradient(to right,#000046, #1CB5E0);
-    margin:150px;
-}
-a{
-    text-decoration:none;
-}
-button{
-    background-color:red;
-    border-radius: 20px;
-}
-.btn{
-    background-color: white;
-    border-color:#1CB5E0;
-}
-.btn:active{
-    background-color: #000046;
-}
-.move{
-    display:flex;
-    justify-content:center;
-    gap:150px;
-}
-.btnadd{
-    font-size: 20px;
-    margin:10px;
-    border-radius: 40px;
-    background-color: white;
-    border-color:#000046;
-}
-.btnadd:hover{
-    color:pink;
-    background-color: cyan;
 }
 h1{
     color:white;
